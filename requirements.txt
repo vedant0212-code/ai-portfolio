@@ -1,0 +1,8 @@
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2
+scikit-learn>=1.3
+numpy
+requests
+# optional, only needed for --hf evals (free Hugging Face datasets):
+datasets>=2.19,<4      # <4 because cuad-qa uses a loading script
